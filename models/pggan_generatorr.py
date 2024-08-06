@@ -14,10 +14,10 @@ from . import model_settings
 from .pggan_generator_model import PGGANGeneratorModel
 from .base_generator import BaseGenerator
 
-__all__ = ['PGGANGenerator']
+__all__ = ['PGGANGeneratorr']
 
 
-class PGGANGenerator(BaseGenerator):
+class PGGANGeneratorr(BaseGenerator):
   """Defines the generator class of ProgressiveGAN."""
 
   def __init__(self, model_name, logger=None):

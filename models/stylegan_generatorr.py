@@ -14,10 +14,10 @@ from . import model_settings
 from .stylegan_generator_model import StyleGANGeneratorModel
 from .base_generator import BaseGenerator
 
-__all__ = ['StyleGANGenerator']
+__all__ = ['StyleGANGeneratorr']
 
 
-class StyleGANGenerator(BaseGenerator):
+class StyleGANGeneratorr(BaseGenerator):
   """Defines the generator class of StyleGAN.
 
   Different from conventional GAN, StyleGAN introduces a disentangled latent

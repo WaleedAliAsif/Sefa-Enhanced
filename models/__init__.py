@@ -9,8 +9,8 @@ from .stylegan_discriminator import StyleGANDiscriminator
 from .stylegan2_generator import StyleGAN2Generator
 from .stylegan2_discriminator import StyleGAN2Discriminator
 from .pggan_generator_model import PGGANGeneratorModel
-from .pggan_generatorr import PGGANGenerator
-from .stylegan_generatorr import StyleGANGenerator
+from .pggan_generatorr import PGGANGeneratorr
+from .stylegan_generatorr import StyleGANGeneratorr
 from .stylegan_generator_model import StyleGANGeneratorModel
 from .model_settings import MODEL_POOL
 from .encoder import SimpleEncoder
