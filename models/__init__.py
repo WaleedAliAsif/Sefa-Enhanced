@@ -18,7 +18,7 @@ from .encoder import SimpleEncoder
 __all__ = [
     'MODEL_ZOO', 'PGGANGenerator', 'PGGANDiscriminator', 'StyleGANGenerator',
     'StyleGANDiscriminator', 'StyleGAN2Generator', 'StyleGAN2Discriminator',
-    'build_generator', 'build_discriminator', 'build_model','MODEL_POOL','PGGANGenerator','StyleGANGenerator','PGGANGeneratorModel','StyleGANGeneratorModel'
+    'build_generator', 'build_discriminator', 'build_model','MODEL_POOL','PGGANGeneratorr','StyleGANGeneratorr','PGGANGeneratorModel','StyleGANGeneratorModel'
 ]
 
 _GAN_TYPES_ALLOWED = ['pggan', 'stylegan', 'stylegan2']
